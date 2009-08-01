@@ -1,0 +1,145 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 8894CC8A1023F9EE00043D0D /* MacThrottle */;
+		activeTarget = 8D1107260486CEB800E47090 /* MacThrottle */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* MacThrottle */,
+		);
+		codeSenseManager = 8894CCA41023F9FF00043D0D /* Code sense */;
+		executables = (
+			8894CC8A1023F9EE00043D0D /* MacThrottle */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					830,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 270793198;
+			PBXWorkspaceStateSaveDate = 270793198;
+		};
+		perUserProjectItems = {
+			8894CCBB102422F300043D0D /* PBXTextBookmark */ = 8894CCBB102422F300043D0D /* PBXTextBookmark */;
+			8894CCBD102422F300043D0D /* PBXTextBookmark */ = 8894CCBD102422F300043D0D /* PBXTextBookmark */;
+			8894CCD6102424AE00043D0D /* PBXTextBookmark */ = 8894CCD6102424AE00043D0D /* PBXTextBookmark */;
+			8894CCD8102424BB00043D0D /* PBXTextBookmark */ = 8894CCD8102424BB00043D0D /* PBXTextBookmark */;
+		};
+		sourceControlManager = 8894CCA31023F9FF00043D0D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8894CC8A1023F9EE00043D0D /* MacThrottle */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MacThrottle;
+		sourceDirectories = (
+		);
+	};
+	8894CCA31023F9FF00043D0D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	8894CCA41023F9FF00043D0D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8894CCA7102421F000043D0D /* AppController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {542, 409}}";
+			sepNavSelRange = "{321, 0}";
+			sepNavVisRange = "{0, 328}";
+		};
+	};
+	8894CCA8102421F000043D0D /* AppController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1008, 800}}";
+			sepNavSelRange = "{295, 0}";
+			sepNavVisRange = "{23, 908}";
+		};
+	};
+	8894CCBB102422F300043D0D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8894CCA7102421F000043D0D /* AppController.h */;
+		name = "AppController.h: 18";
+		rLen = 0;
+		rLoc = 321;
+		rType = 0;
+		vrLen = 328;
+		vrLoc = 0;
+	};
+	8894CCBD102422F300043D0D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8894CCA7102421F000043D0D /* AppController.h */;
+		name = "AppController.h: 18";
+		rLen = 0;
+		rLoc = 321;
+		rType = 0;
+		vrLen = 328;
+		vrLoc = 0;
+	};
+	8894CCD6102424AE00043D0D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8894CCA8102421F000043D0D /* AppController.m */;
+		name = "AppController.m: 41";
+		rLen = 0;
+		rLoc = 899;
+		rType = 0;
+		vrLen = 312;
+		vrLoc = 167;
+	};
+	8894CCD8102424BB00043D0D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8894CCA8102421F000043D0D /* AppController.m */;
+		name = "AppController.m: 17";
+		rLen = 0;
+		rLoc = 295;
+		rType = 0;
+		vrLen = 908;
+		vrLoc = 23;
+	};
+	8D1107260486CEB800E47090 /* MacThrottle */ = {
+		activeExec = 0;
+		executables = (
+			8894CC8A1023F9EE00043D0D /* MacThrottle */,
+		);
+	};
+}
