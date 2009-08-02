@@ -12,9 +12,11 @@
 @interface AppController : NSObject {
 	IBOutlet id speedTextBox;
 	IBOutlet id unitsComboBox;
+	
+	NSString *helperToolPath;
 }
 
-- (IBAction) enable: sender;
-- (IBAction) disable: sender;
+- (IBAction) enable: (id)sender;
+- (IBAction) disable: (id)sender;
 
 @end

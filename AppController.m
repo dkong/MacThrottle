@@ -11,39 +11,25 @@
 
 @implementation AppController
 
+- (void)awakeFromNib
+{
+	helperToolPath = [[[[NSBundle mainBundle] resourcePath] stringByAppendingString:@"/AuthHelperTool"] retain];
+}
+
 -(IBAction) enable: sender
 {
-	NSLog(@"Called enable button %@", [speedTextBox stringValue] );
+	NSLog(@"Called enable button %@", [speedTextBox stringValue]);
 	
-	NSTask *task;
-    task = [[NSTask alloc] init];
-    [task setLaunchPath: @"/bin/ls"];
-	
-    NSArray *arguments;
-    arguments = [NSArray arrayWithObjects: @"-l", @"-a", @"-t", nil];
-    [task setArguments: arguments];
-	
-    NSPipe *pipe;
-    pipe = [NSPipe pipe];
-    [task setStandardOutput: pipe];
-	
-    NSFileHandle *file;
-    file = [pipe fileHandleForReading];
-	
-    [task launch];
-	
-    NSData *data;
-    data = [file readDataToEndOfFile];
-	
-    NSString *string;
-    string = [[NSString alloc] initWithData: data
-								   encoding: NSUTF8StringEncoding];
-    NSLog (@"woop!  got\n%@", string);
+	NSArray *args = [NSArray arrayWithObjects:helperToolPath, @"enableLimit", [speedTextBox stringValue], [unitsComboBox stringValue], nil];
+	[NSTask launchedTaskWithLaunchPath:helperToolPath arguments:args];
 }
 
 -(IBAction) disable: sender
 {
 	NSLog(@"Called disable button" );
+
+	NSArray *args = [NSArray arrayWithObjects:helperToolPath, @"disableLimit", @"", @"", nil];
+	[NSTask launchedTaskWithLaunchPath:helperToolPath arguments:args];
 }
 
 @end
