@@ -1177,8 +1177,8 @@
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="471704662">
 								<int key="NSCellFlags">-1804468671</int>
-								<int key="NSCellFlags2">-1874852864</int>
-								<string key="NSContents"/>
+								<int key="NSCellFlags2">272630784</int>
+								<real value="3.000000e+02" key="NSContents"/>
 								<reference key="NSSupport" ref="228269758"/>
 								<object class="NSNumberFormatter" key="NSFormatter" id="740381540">
 									<object class="NSMutableDictionary" key="NS.attributes">
@@ -1270,7 +1270,7 @@
 							<object class="NSComboBoxCell" key="NSCell" id="294447763">
 								<int key="NSCellFlags">74579521</int>
 								<int key="NSCellFlags2">272630784</int>
-								<string key="NSContents">MByte/s</string>
+								<string key="NSContents">KByte/s</string>
 								<reference key="NSSupport" ref="228269758"/>
 								<reference key="NSControlView" ref="318889008"/>
 								<bool key="NSDrawsBackground">YES</bool>
