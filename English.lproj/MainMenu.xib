@@ -1111,11 +1111,11 @@
 				<string key="NSName">_NSMainMenu</string>
 			</object>
 			<object class="NSWindowTemplate" id="972006081">
-				<int key="NSWindowStyleMask">7</int>
+				<int key="NSWindowStyleMask">4103</int>
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{300, 676}, {234, 102}}</string>
-				<int key="NSWTFlags">1946157056</int>
-				<string key="NSWindowTitle">Window</string>
+				<int key="NSWTFlags">1946158080</int>
+				<string key="NSWindowTitle">MacThrottle</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<nil key="NSViewClass"/>
 				<string key="NSWindowContentMaxSize">{234, 102}</string>
@@ -1156,7 +1156,7 @@
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="183675935">
-								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags">604110336</int>
 								<int key="NSCellFlags2">134217728</int>
 								<string key="NSContents">Disable</string>
 								<reference key="NSSupport" ref="228269758"/>
@@ -1944,6 +1944,22 @@
 						<reference key="destination" ref="937108587"/>
 					</object>
 					<int key="connectionID">468</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">enableButton</string>
+						<reference key="source" ref="100350710"/>
+						<reference key="destination" ref="890093146"/>
+					</object>
+					<int key="connectionID">470</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">disableButton</string>
+						<reference key="source" ref="100350710"/>
+						<reference key="destination" ref="937108587"/>
+					</object>
+					<int key="connectionID">471</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -3293,8 +3309,8 @@
 					<reference ref="9"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
-					<string>{{124, 455}, {234, 102}}</string>
-					<string>{{124, 455}, {234, 102}}</string>
+					<string>{{129, 455}, {234, 102}}</string>
+					<string>{{129, 455}, {234, 102}}</string>
 					<reference ref="9"/>
 					<string>{{33, 99}, {480, 360}}</string>
 					<boolean value="YES" id="5"/>
@@ -3417,7 +3433,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">469</int>
+			<int key="maxID">471</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3442,11 +3458,15 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSMutableArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>disableButton</string>
+							<string>enableButton</string>
 							<string>speedTextBox</string>
 							<string>unitsComboBox</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 						</object>

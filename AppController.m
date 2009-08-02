@@ -22,6 +22,9 @@
 	
 	NSArray *args = [NSArray arrayWithObjects:helperToolPath, @"enableLimit", [speedTextBox stringValue], [unitsComboBox stringValue], nil];
 	[NSTask launchedTaskWithLaunchPath:helperToolPath arguments:args];
+	
+	[enableButton setEnabled:NO];
+	[disableButton setEnabled:YES];
 }
 
 -(IBAction) disable: sender
@@ -30,6 +33,9 @@
 
 	NSArray *args = [NSArray arrayWithObjects:helperToolPath, @"disableLimit", @"", @"", nil];
 	[NSTask launchedTaskWithLaunchPath:helperToolPath arguments:args];
+
+	[enableButton setEnabled:YES];
+	[disableButton setEnabled:NO];
 }
 
 @end

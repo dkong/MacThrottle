@@ -12,6 +12,8 @@
 @interface AppController : NSObject {
 	IBOutlet id speedTextBox;
 	IBOutlet id unitsComboBox;
+	IBOutlet id enableButton;
+	IBOutlet id disableButton;
 	
 	NSString *helperToolPath;
 }
