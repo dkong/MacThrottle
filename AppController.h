@@ -16,6 +16,7 @@
 	IBOutlet id disableButton;
 	
 	NSString *helperToolPath;
+	bool isLimitEnabled;
 }
 
 - (IBAction) enable: (id)sender;
