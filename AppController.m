@@ -75,4 +75,11 @@
 		NSLog(@"Task failed. %d", status );
 }
 
+- (void)applicationWillTerminate:(NSNotification *)aNotification
+{
+	// TODO: Is there a way to cache the authentication so user doesn't have to re-enter password on exit?
+	if (isLimitEnabled)
+		[self disable: nil];
+}
+
 @end

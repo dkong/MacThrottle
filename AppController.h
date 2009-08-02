@@ -22,4 +22,6 @@
 - (IBAction) enable: (id)sender;
 - (IBAction) disable: (id)sender;
 
+- (void)applicationWillTerminate:(NSNotification *)aNotification;
+
 @end

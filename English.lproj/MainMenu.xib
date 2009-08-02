@@ -1961,6 +1961,14 @@
 					</object>
 					<int key="connectionID">471</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="1021"/>
+						<reference key="destination" ref="100350710"/>
+					</object>
+					<int key="connectionID">472</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -3309,8 +3317,8 @@
 					<reference ref="9"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
-					<string>{{129, 455}, {234, 102}}</string>
-					<string>{{129, 455}, {234, 102}}</string>
+					<string>{{186, 479}, {234, 102}}</string>
+					<string>{{186, 479}, {234, 102}}</string>
 					<reference ref="9"/>
 					<string>{{33, 99}, {480, 360}}</string>
 					<boolean value="YES" id="5"/>
@@ -3433,7 +3441,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">471</int>
+			<int key="maxID">472</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
