@@ -1,0 +1,16 @@
+About
+
+MacThrottle (http://github.com/dkong/MacThrottle) is a simple GUI for ipfw to limit internet download bandwidth.
+
+Components
+
+Uses the BDAuthorize sample code (http://www.bdunagan.com/2008/11/23/sudo-nstasks-with-mac-os-xs-security-framework/) with modifications for root access.
+
+License
+
+MIT License (see LICENSE file) for all files except BDAuthorize which belongs to its original author.
+
+Version History
+
+1.0 (2009-09-22)
+ * First public release with enable/disable working
